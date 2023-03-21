@@ -1,6 +1,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  labels:
-    tier: project
+  creationTimestamp: null
   name: {{ .Values.namespace.name }}
+spec: {}
+status: {}
