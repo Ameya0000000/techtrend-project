@@ -1,0 +1,51 @@
+## Docker commands used to build the application 
+# TODO: docker build -f Dockerfile -t techtrends .
+
+## Docker commands used to run the application
+# TODO: docker run -d -p 7111:3111 techtrends
+
+## Docker commands used to get the application logs
+# TODO: docker logs b7f19d72fe44388db8aec3e7840c5ae9fd40fa5a8ee09f6aa2ebefd2cf961ca3
+
+## Logs from the container running the TechTrends application
+# TODO: paste logs from the Docker container 
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+WARNING:werkzeug:2023-03-01 19:00:49,097- * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug:2023-03-01 19:00:49,097- * Running on http://172.17.0.2:3111/ (Press CTRL+C to quit)
+<_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+WARNING:werkzeug:2023-03-01 19:18:04,862- * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug:2023-03-01 19:18:04,862- * Running on http://172.17.0.2:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:2023-03-01 19:18:57,740-172.17.0.1 - - [01/Mar/2023 19:18:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:2023-03-01 19:18:57,747-172.17.0.1 - - [01/Mar/2023 19:18:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:2023-03-01 19:18:57,798-172.17.0.1 - - [01/Mar/2023 19:18:57] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:2023-03-01 19:18:58,182-172.17.0.1 - - [01/Mar/2023 19:18:58] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:werkzeug:2023-03-01 19:18:58,185-172.17.0.1 - - [01/Mar/2023 19:18:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:2023-03-01 19:18:58,216-172.17.0.1 - - [01/Mar/2023 19:18:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:2023-03-01 19:18:58,684-172.17.0.1 - - [01/Mar/2023 19:18:58] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:2023-03-01 19:18:58,704-172.17.0.1 - - [01/Mar/2023 19:18:58] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:root:2023-03-01 19:21:44,146-Article CNCF Cloud Native Definition v1.0 retrieved!
+INFO:werkzeug:2023-03-01 19:21:44,172-172.17.0.1 - - [01/Mar/2023 19:21:44] "GET /5 HTTP/1.1" 200 -
+INFO:werkzeug:2023-03-01 19:21:44,725-172.17.0.1 - - [01/Mar/2023 19:21:44] "GET /static/css/main.css HTTP/1.1" 304 -
+INFO:root:2023-03-01 19:21:44,730-Article CNCF Cloud Native Definition v1.0 retrieved!
+INFO:werkzeug:2023-03-01 19:21:44,732-172.17.0.1 - - [01/Mar/2023 19:21:44] "GET /5 HTTP/1.1" 200 -
+INFO:root:2023-03-01 19:24:00,227-Article CNCF Cloud Native Definition v1.0 retrieved!
+INFO:werkzeug:2023-03-01 19:24:00,229-172.17.0.1 - - [01/Mar/2023 19:24:00] "GET /5 HTTP/1.1" 200 -
+INFO:werkzeug:2023-03-01 19:24:00,320-172.17.0.1 - - [01/Mar/2023 19:24:00] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:2023-03-01 19:24:00,451-172.17.0.1 - - [01/Mar/2023 19:24:00] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:2023-03-01 19:24:06,462-172.17.0.1 - - [01/Mar/2023 19:24:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:2023-03-01 19:24:06,490-172.17.0.1 - - [01/Mar/2023 19:24:06] "GET /static/css/main.css HTTP/1.1" 304 -
+
+
+
