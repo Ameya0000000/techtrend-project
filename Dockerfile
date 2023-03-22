@@ -15,6 +15,7 @@ LABEL org.label-schema.build-date==$BUILD_DATE
 RUN pip install -r requirements.txt
 RUN python init_db.py
 
+
 #expose the port 3111
 EXPOSE 3111
 
