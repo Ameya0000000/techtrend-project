@@ -1,23 +1,14 @@
-#use python base image
 FROM python:3.8
+LABEL maintainer="Ameya Diwan"
 
-#set working directory
+COPY ./techtrends /app
 WORKDIR /app
-
-#copy all the dependecies files
-ADD techtrends/ . 
-
-#set label
-ARG BUILD_DATE
-LABEL org.label-schema.build-date==$BUILD_DATE
-
-#install and run dependencies
 RUN pip install -r requirements.txt
-RUN python init_db.py
 
-
-#expose the port 3111
 EXPOSE 3111
 
-#start the container
-CMD ["python", "app.py"]
+RUN python init_db.py
+
+# command to run on container start
+CMD [ "python", "app.py" ]
+

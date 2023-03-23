@@ -1,5 +1,5 @@
 ## Docker commands used to build the application 
-# TODO: docker build -f Dockerfile -t techtrends .
+# TODO: docker build Dockerfile -t techtrends .
 
 ## Docker commands used to run the application
 # TODO: docker run -d -p 7111:3111 techtrends
